@@ -1,0 +1,112 @@
+.bigbox{
+  background-color: rgb(235, 232, 228);
+}
+.top {
+  background-color: rgb(37, 201, 187);
+  height: 350rpx;
+  color: white;
+  font-size: 18px;
+}
+
+.top1-1 {
+  height: 175rpx;
+  width: 40%;
+  /* background-color: rebeccapurple; */
+  display: inline;
+  float: left;
+  line-height: 140rpx;
+  text-align: center
+  
+}
+
+.top1-2 {
+  background-color: rgb(172, 160, 192);
+  width: 35%;
+  height: 70rpx;
+  display: inline;
+  float: right;
+  font-weight: bold;
+  line-height: 200%;
+  text-align: center;
+  margin-top: 5%;
+  margin-right: 5%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.top1 {
+  /* background-color: green; */
+  height: 175rpx;
+  width: 100%;
+  color: white;
+  font-size: 18px;
+}
+
+.top2-1,.top2-2,.top2-3,.top2-4{
+  display: inline;
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding-top: 20px;
+
+}
+.top2-1,.top2-2{
+  width: 22%;
+  
+}
+.middle{
+  background-color: white;
+  width: 100%;
+  height: 175rpx;
+}
+image{
+  width: 70rpx;
+  height: 70rpx;
+  display: block;
+  margin-left: 5px;
+}
+.pay1,.pay2,.pay3,.pay4,.pay5{
+  float: left;
+  margin-left: 6%;
+  margin-top: 3%;
+  text-align: center;
+}
+
+.buttom{
+  background-color: white;
+  width: 100%;
+  height: 350rpx;
+
+}
+
+.money-left{
+  text-align: left;
+  font-weight:550;
+  padding-left: 10px;
+  
+}
+
+.money-right{
+  text-align: right;
+  font-weight:550;
+  float: right;
+  padding-right: 10px;
+  color: rgb(199, 199, 199);
+}
+.money{
+  width: 100%;
+  height: 80rpx;
+  /* background-color: red; */
+  padding-top: 30rpx;
+  border-bottom: rgb(233, 232, 232);
+  border-bottom-style:  solid;
+}
+
+.winter{
+margin-top: 80rpx;
+margin-left: 200rpx;
+}
+.winter-png{
+  width: 150px;
+  height: 50px;
+}

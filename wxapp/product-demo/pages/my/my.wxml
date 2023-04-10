@@ -1,0 +1,74 @@
+<view class="bigbox">
+  <view class="top">
+  <view class="top1">
+    <view class="top1-1">
+      <text bindtap="login">登录</text>
+      <text decode="true">&nbsp;&nbsp;|&nbsp;&nbsp;</text>
+      <text>注册</text>
+    </view>
+    <view class="top1-2">
+      <text>查看个人主页</text>
+    </view>
+  </view>
+
+  <view class="top2">
+    <view class="top2-1">
+      <text>0\n</text>
+      <text>关注</text>
+    </view>
+    <view class="top2-2">
+      <text>0\n</text>
+      <text>粉丝</text>
+    </view>
+    <view class="top2-3">
+      <text>0\n</text>
+      <text>赞与收藏</text>
+    </view>
+    <view class="top2-4">
+      <text>0\n</text>
+      <text>好友动态</text>
+    </view>
+  </view>
+</view>
+
+<view class="middle">
+  <view class="pay1">
+    <image src="/imgJPG/pay1.png"></image>
+    <text>待支付</text>
+  </view>
+  <view class="pay2">
+    <image src="/imgJPG/pay2.png"></image>
+    <text>待支付</text>
+  </view>
+  <view class="pay3">
+    <image src="/imgJPG/pay3.png"></image>
+    <text>待支付</text>
+  </view>
+  <view class="pay4">
+    <image src="/imgJPG/pay4.png"></image>
+    <text>待支付</text>
+  </view>
+  <view class="pay5">
+    <image src="/imgJPG/pay5.png"></image>
+    <text>待支付</text>
+  </view>
+
+</view>
+<text>\n</text>
+<view class="buttom">
+<view class="money">
+<text class="money-left">我的钱包</text><text class="money-right">￥20</text>
+</view>
+
+<view class="money">
+  <text class="money-left">我的优惠券</text><text class="money-right">暂无可用</text>
+</view>
+<view class="money">
+<text class="money-left">领券中心</text><text class="money-right">你的福利都在这</text>
+</view>
+<view class="winter">
+<image src="/imgJPG/wechat.png" class="winter-png"></image>
+</view>
+</view>
+
+</view>

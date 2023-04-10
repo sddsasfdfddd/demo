@@ -1,0 +1,69 @@
+<!--pages/home/home.wxml-->
+<!-- 条件渲染 
+wx:if={{true/false}} 值为真时显示，反之隐藏
+值可以是个布尔类型的变量
+-->
+<view>
+<view>=====条件渲染=====</view>
+<view wx:if="{{true}}">显示</view>
+<view wx:if="{{flag}}">隐藏</view>
+</view>
+
+<view>
+<view wx:if="{{false}}">1</view>
+<view wx:elif="{{false}}">2</view>
+<view wx:else="{{false}}">3</view>
+</view>
+<view>
+<view>============</view>
+<view hidden>hidden1</view>
+<view>hidden2</view>
+<view hidden="{{true}}">hidden2</view>
+<view>============</view>
+</view>
+
+
+<view>=====对象的遍历=====</view>
+<!-- 对象的遍历 -->
+<view>
+<view wx:for="{{student}}" wx:for-index="key" wx:for-item="value" wx:key="aa">
+默认下标：{{key}}
+默认值:{{value}}
+</view>
+</view>
+<view>=====数组的遍历=====</view>
+<!-- 数组 
+      遍历：wx:for={{数组或对象}}
+      数组或对象的名称：默认 wx:for-item="item"
+      下标：默认wx:for-index="index"
+      注意：在遍历数组或对象时，需要指定wx:key属性，它的值具有唯一性
+-->
+<view>
+<view wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="id">
+索引index:{{index}}
+对象id：{{item.id}}
+对象名称：{{item.dname}}
+</view>
+</view>
+<view>============</view>
+<view>
+<view wx:for="{{list}}" wx:key="id">
+索引index:{{index}}
+对象id：{{item.id}}
+对象名称：{{item.dname}}
+</view>
+</view>
+<text>pages/home/home.wxml</text>
+<view>=======运算=======</view>
+<view>{{9%3}}</view>
+<view>{{"我的名字："+name}}</view>
+<view>{{10%2==0 ?'偶数':'奇数'}}</view>
+<view>=======数据绑定======</view>
+<text>翠花</text>
+<view>{{name}}</view>
+<view>张三</view>
+<view>{{age}}</view>
+<view>{{flag}}</view>
+<view>{{student.sname}}</view>
+<!-- 组件属性 data-xxx 一般用于获取后端传递过来的参数-->
+<view data-age="{{age}}">自定义属性（不可见）</view>

@@ -1,0 +1,6 @@
+view{
+  width: 500rpx;
+  height: 500rpx;
+  background-color: rgb(153, 153, 231);
+  font-size: 20px;
+}

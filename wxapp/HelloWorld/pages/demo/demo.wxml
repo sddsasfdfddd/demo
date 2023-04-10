@@ -1,0 +1,30 @@
+<!--pages/demo/demo.wxml-->
+<text>pages/demo/demo.wxml</text>
+<!-- 
+  事件传参：用data开头 若有多个单词用-隔开
+  在标签中获取事件传递过来的参数 用{{}}获取
+  在事件中获取页面传递过来的参数用： event.currentTarget.dataset.属性名
+ -->
+<view>======事件传参=====</view>
+<view>
+<view bindtap="getParam" data-id="{{id}}" data-user="{{user}}" data-user-name="{{name}}">
+点我点我
+</view>
+
+</view>
+
+
+<view>======事件==========</view>
+<!-- 事件
+     冒泡事件bindtap：在执行自己函数时，还会执行父组件函数
+     非冒泡事件catchtap:只关注自己
+ -->
+<view bindtap="parent">
+点我试试
+<view bindtap="children">
+试试就试试
+</view>
+<view catchtap="children">
+试试就试试
+</view>
+</view>

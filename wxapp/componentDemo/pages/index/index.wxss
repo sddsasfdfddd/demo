@@ -1,0 +1,50 @@
+/**index.wxss**/
+.bbox{
+  width: 100%;
+  overflow-x: auto;
+  padding-bottom: 40rpx;
+  background-color: rgba(142, 155, 155, 0.164);
+}
+.box1{
+  margin: 0 auto;
+  display: table-row;
+  border-collapse: collapse;
+  overflow-x: auto;
+  word-break: keep-all;
+  white-space: nowrap;
+  background-color: #FFFFFF;
+  width: 90%;
+}
+.c{
+  display: table-cell;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1rpx solid #DDDDDD;
+  border-right: none;
+}
+.c2{
+  display: table-cell;
+  text-align: center;
+  border: 1rpx solid #DDDDDD;
+  border-right: none;
+  width:50%;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #aaa;
+}
+
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.usermotto {
+  margin-top: 200px;
+}

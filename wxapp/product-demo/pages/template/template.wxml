@@ -1,0 +1,13 @@
+<template name="home">
+  <block wx:for="{{array}}" wx:key="item">
+    <view class="item">
+      <image src="{{item.image}}"></image>
+    </view>
+    <view class="desc">
+        <view class="title">{{item.name}}</view>
+        <view class="type">{{item.merchant}}</view>
+        <view class="collectNumber">{{item.collectNumber}}</view>
+        <view class="browserNumber">{{item.browserNumber}}</view>
+      </view>
+  </block>
+</template>

@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/my/my",
+    "pages/demo/demo",
+    "pages/index/index",
+    "pages/logs/logs"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#0094ff",
+    "navigationBarTitleText": "贵州民族大学",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "icon/_home.png",
+      "selectedIconPath": "icon/home.png"
+    },
+    {
+      "pagePath": "pages/demo/demo",
+      "text": "图片",
+      "iconPath": "icon/_img.png",
+      "selectedIconPath": "icon/img.png"
+    },
+    {
+      "pagePath": "pages/my/my",
+      "text": "个人中心",
+      "iconPath": "icon/_my.png",
+      "selectedIconPath": "icon/my.png"
+    }
+  ],
+  "color": "#0094ff",
+  "selectedColor": "#ff2394",
+  "backgroundColor": "#0078ab"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,67 @@
+.item image{
+  width: 670rpx;
+  height: 450rpx;
+  margin: 0 30rpx;
+  display: block;
+}
+.desc{
+  margin-left: 30rpx;
+  display: flex;
+}
+.type,.collectNumber,.browserNumber{
+  margin-top: 10rpx;
+  margin-right: 30rpx;
+  font-size: 12px;
+  color: #999;
+}
+.week{
+  text-align: center;
+  margin: 30rpx 0;
+}
+.hr{
+  height: 15rpx;
+  background-color: rgba(196, 191, 201, 0.418);
+  margin: 30rpx 0;
+}
+.hot{
+  margin: 30rpx;
+}
+.hotimg{
+  display: flex;
+  flex-direction: row;
+}
+.hotimg image{
+  height: 180rpx;
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+  text-align: center
+}
+.nav-item{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30rpx;
+  margin-left: 8%;
+  background-color:aliceblue;
+  text-align: center;
+}
+.search-img{
+  background-color: black;
+}
+.img{
+  margin-top: 110rpx;
+}
+input{
+  text-align: center;
+  height: 70rpx;
+  line-height: 70rpx;
+}
+.search{
+  border-radius: 20rpx;
+  position: fixed;
+  background-color:white;
+  height: 70rpx;
+  width: 90%;
+  margin: 20rpx 5%;
+}

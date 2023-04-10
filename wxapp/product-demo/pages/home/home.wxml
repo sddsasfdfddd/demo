@@ -1,0 +1,63 @@
+<!--pages/home/home.wxml-->
+<view class="search">
+<input type="text" placeholder="搜菜谱、食材" />
+</view>
+<!-- 轮播图 -->
+<view class="search-img">
+<view style="height: 1px;"></view>
+<view class="img">
+<swiper autoplay="true" indicator-dots="true" interval="3000">
+<swiper-item>
+<image src="../../imgJPG/s1.jpg" style="height: 375rpx;"></image>
+</swiper-item>
+<swiper-item>
+<image src="../../imgJPG/s2.jpg" style="height: 375rpx;"></image>
+</swiper-item>
+<swiper-item>
+<image src="../../imgJPG/s3.jpg" style="height: 375rpx;"></image>
+</swiper-item>
+</swiper>
+</view>
+</view>
+<!-- 导航条 -->
+<view class="nav">
+  <view class="nav-item">
+    <view>
+      <view>早中晚餐</view>
+      <view>每日三餐</view>
+    </view>
+    <view><image src="../../imgJPG/title01.png" style="height: 100rpx;width: 100rpx;"></image></view>
+  </view>
+  <view class="nav-item">
+    <view>
+      <view>精选菜谱</view>
+      <view>一周精选菜谱</view>
+    </view>
+    <view><image src="../../imgJPG/title02.png" style="height: 100rpx;width: 100rpx;"></image></view>
+  </view>
+</view>
+
+
+
+<view class="hot">
+<view>热门推荐</view>
+<view class="hotimg">
+<image src="../../imgJPG/hot01.jpg"></image>
+<image src="../../imgJPG/hot02.jpg"></image>
+<image src="../../imgJPG/hot03.jpg"></image>
+<image src="../../imgJPG/hot04.jpg"></image>
+</view>
+</view>
+
+<!-- 分割线 -->
+<view class="hr"></view>
+<view class="week">本周佳作</view>
+
+<!-- 导入模板 -->
+<import src="../template/template"/>
+<!-- 
+  模板应用的时候：
+  is：用来进行判断 判断当前页面是否是template中定义
+
+ -->
+<template is="home" data="{{array}}"></template>

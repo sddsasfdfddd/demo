@@ -1,0 +1,54 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/category/category",
+    "pages/shopping/shopping",
+    "pages/collect/collect",
+    "pages/my/my",
+    "pages/auth/auth",
+    "pages/template/template",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "校园点餐APP",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [{
+    "pagePath": "pages/home/home",
+    "text": "首页",
+    "iconPath": "imgJPG/06.png",
+    "selectedIconPath": "imgJPG/01.png"
+    },
+    {
+    "pagePath": "pages/category/category",
+    "text": "分类",
+    "iconPath": "imgJPG/02.png",
+    "selectedIconPath": "imgJPG/07.png"
+    },
+    {
+    "pagePath": "pages/shopping/shopping",
+    "text": "商城",
+    "iconPath": "imgJPG/03.png",
+    "selectedIconPath": "imgJPG/08.png"
+    },
+    {
+    "pagePath": "pages/collect/collect",
+    "text": "收藏",
+    "iconPath": "imgJPG/04.png",
+    "selectedIconPath": "imgJPG/09.png"
+    },
+    {
+    "pagePath": "pages/my/my",
+    "text": "我的",
+    "iconPath": "imgJPG/05.png",
+    "selectedIconPath": "imgJPG/10.png"
+    }]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+    }
+ 

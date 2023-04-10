@@ -1,0 +1,23 @@
+<!--文本标签 Text-->
+<view class="bbox">
+<view class="box1">
+<view class="c">姓名</view>
+<view class="c">邮箱</view>
+<view class="c">操作</view>
+</view>
+<view class="box1" wx:for="{{usermList}}" wx:key="index">
+<view class="c2">{{item.uname}}</view>
+<view class="c2">{{item.email}}</view>
+<view class="c2">
+<button type="primary" size="mini" data-id="{{item.id}}" bindtap="del">删除</button>
+<button type="primary" size="mini" data-id="{{item.id}}" bindtap="edit">编辑</button>
+</view>
+</view>
+</view>
+<form bindsubmit="toSubmit">
+<input style="display: none;" type="text" name="id" value="{{userm.id}}"/>
+用户名：<input style="background-color: rgba(255, 192, 203, 0.534);" name="uname" value="{{userm.uname}}" type="text"/>
+年龄：<input style="background-color: rgba(255, 192, 203, 0.534);" name="age" value="{{userm.age}}" type="text"/>
+邮箱：<input style="background-color: rgba(255, 192, 203, 0.534);" name="email" value="{{userm.email}}" type="text"/>
+<button type="primary" form-type="submit">提交</button>
+</form>
